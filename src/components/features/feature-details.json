@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_features_feature_details",
+  "info": {
+    "displayName": "FeatureDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_registrations_form_input_fields",
+  "info": {
+    "displayName": "FormInputField"
+  },
+  "options": {},
+  "attributes": {
+    "FieldName": {
+      "type": "string",
+      "required": true
+    },
+    "FieldPlaceHolder": {
+      "type": "string",
+      "required": true
+    },
+    "InfoText": {
+      "type": "text"
+    },
+    "IsRequired": {
+      "type": "boolean"
+    },
+    "ValidationRegex": {
+      "type": "text"
+    }
+  }
+}

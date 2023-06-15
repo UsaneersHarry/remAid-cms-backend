@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_use_cases_use_cases",
+  "info": {
+    "displayName": "UseCase"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "ImageAuthor": {
+      "type": "string"
+    },
+    "HorizontalOffset": {
+      "type": "integer",
+      "default": 50,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "VerticalOffset": {
+      "type": "integer",
+      "default": 50,
+      "required": true,
+      "max": 100,
+      "min": 0
+    }
+  }
+}

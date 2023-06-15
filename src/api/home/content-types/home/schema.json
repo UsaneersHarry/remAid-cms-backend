@@ -1,0 +1,146 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroHeading": {
+      "type": "string",
+      "required": true
+    },
+    "HeroSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "HeroIllustration": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HowDoesItWorkHeading": {
+      "type": "string",
+      "required": true
+    },
+    "OperatorSectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "OperatorSectionContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "OperatorIllustration": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ProctorSectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ProctorSectionContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "ProctorIllustration": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CoreValueHeading": {
+      "type": "string",
+      "required": true
+    },
+    "CoreValueContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "CoreValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.core-value",
+      "max": 6,
+      "min": 6
+    },
+    "UseCasesHeading": {
+      "type": "string",
+      "required": true
+    },
+    "UseCaseContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "QuotesHeading": {
+      "type": "string",
+      "required": true
+    },
+    "Quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.quote",
+      "required": true,
+      "max": 10,
+      "min": 4
+    },
+    "TrustedPartnerHeading": {
+      "type": "string",
+      "required": true
+    },
+    "TrustedPartners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.trusted-partner",
+      "required": true,
+      "max": 15,
+      "min": 10
+    },
+    "SleeveHeading": {
+      "type": "string",
+      "required": true
+    },
+    "SleeveTitle": {
+      "type": "string",
+      "required": true
+    },
+    "SleeveContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "SleeveImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "ImageVideo": {
+      "type": "richtext"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.call-to-action",
+      "max": 2,
+      "required": true,
+      "min": 0
+    }
+  }
+}

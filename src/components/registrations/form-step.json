@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_registrations_form_steps",
+  "info": {
+    "displayName": "FormStep"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "FormTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "FormInputField": {
+      "type": "component",
+      "repeatable": true,
+      "component": "registrations.form-input-field",
+      "required": true
+    },
+    "FormDisclaimer": {
+      "type": "text"
+    },
+    "PrivacyPolicyTitle": {
+      "type": "string",
+      "required": true
+    },
+    "NextStepButtonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
