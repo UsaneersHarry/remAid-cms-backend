@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_trusted_partners",
+  "info": {
+    "displayName": "TrustedPartner"
+  },
+  "options": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string",
+      "private": true,
+      "required": true
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PrivacyDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "ConfirmationMessage": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "SendOffHeading": {
+      "type": "string",
+      "required": true
+    },
+    "SendOffContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "SendOffImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

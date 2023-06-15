@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_registrations_registrations",
+  "info": {
+    "displayName": "Registration"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "files",
+        "videos",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ButtonLabel": {
+      "type": "string"
+    }
+  }
+}

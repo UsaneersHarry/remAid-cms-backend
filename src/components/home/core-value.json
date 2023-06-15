@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_core_values",
+  "info": {
+    "displayName": "CoreValue"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_quotes",
+  "info": {
+    "displayName": "Quote"
+  },
+  "options": {},
+  "attributes": {
+    "AuthorName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "CompanyName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "Quote": {
+      "type": "string",
+      "required": true,
+      "maxLength": 500
+    },
+    "Color": {
+      "type": "string",
+      "required": true,
+      "regex": "^#(?:[0-9a-fA-F]{3}){1,2}$"
+    }
+  }
+}

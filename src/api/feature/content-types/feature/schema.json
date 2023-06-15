@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "Features",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroHeading": {
+      "type": "string",
+      "required": true
+    },
+    "HeroSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "HeroIllustration": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "OverviewHeading": {
+      "type": "string",
+      "required": true
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.feature",
+      "required": true,
+      "max": 6,
+      "min": 6
+    },
+    "AnythingMissing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "other.call-to-action"
+    }
+  }
+}
